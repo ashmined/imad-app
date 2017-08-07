@@ -59,7 +59,7 @@ function createTemplate(data){
     var heading = data.heading;
     var content = data.content;
     var date = data.date;
-var htmlTemplate=
+var htmlTemplate = `
 <html>
     <head>
         <title>
@@ -84,7 +84,7 @@ var htmlTemplate=
     </body>
 </html>
 
-;
+`;
 return htmlTemplate;
 }
 app.get('/', function (req, res) {
