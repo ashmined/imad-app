@@ -6,10 +6,10 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles ={
- 'article-one' :{
+ 'article-one' : {
     title: 'Artcleone',
     heading: 'article',
-    date:'sept 15 2017'
+    date:'sept 15 2017',
     content: 
     ` <p>
                         this is my content.this is my content.this is my content.this is my content.this is my content.
@@ -20,11 +20,11 @@ var articles ={
                      <p>
                         this is my content.this is my content.this is my content.this is my content.this is my content.
                     </p>`
-};
+},
 'article-two' :{
     title: 'Artcleone',
     heading: 'article',
-    date:'sept 15 2017'
+    date:'sept 15 2017',
     content: 
     ` <p>
                         this is my content.this is my content.this is my content.this is my content.this is my content.
@@ -35,11 +35,11 @@ var articles ={
                      <p>
                         this is my content.this is my content.this is my content.this is my content.this is my content.
                     </p>`
-};
+},
 'article-three' :{
     title: 'Artcleone',
     heading: 'article',
-    date:'sept 15 2017'
+    date:'sept 15 2017',
     content: 
     ` <p>
                         this is my content.this is my content.this is my content.this is my content.this is my content.
@@ -50,7 +50,7 @@ var articles ={
                      <p>
                         this is my content.this is my content.this is my content.this is my content.this is my content.
                     </p>`
-};
+},
 };
 
 
